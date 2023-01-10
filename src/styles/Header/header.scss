@@ -1,5 +1,55 @@
 #header{
-  .header--general{
+  background: rgba(10, 17, 40, 0.4);
+  backdrop-filter: blur(22px);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 
+
+  .header--general{
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__link{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &--nav{
+        &__block{
+          font-weight: 500;
+          font-size: 16px;
+          text-align: center;
+          color: #FFFFFF;
+          padding-left: 50px;
+        }
+      }
+    }
+    &__subs{
+      &--bot{
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-right: 50px;
+      }
+      button{
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #034078;
+        border-radius: 5px;
+        padding: 10px 40px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        transition: .4s;
+          &:hover{
+            transform: scale(1.1);
+            color: aqua;
+        }
+      }
+    }
   }
 }

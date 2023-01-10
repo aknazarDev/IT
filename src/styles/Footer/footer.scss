@@ -1,0 +1,109 @@
+#footer {
+  padding-bottom: 100px;
+  .footer--general {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    &__title {
+      img{
+        padding-bottom: 30px;
+      }
+      &--block {
+        display: flex;
+        &__language {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 20px;
+          width: 40px;
+          border-radius: 3px;
+          border: 2px solid #FFFFFF;
+
+          h1 {
+            font-weight: 400;
+            font-size: 16px;
+            color: #FFFFFF;
+          }
+        }
+      }
+    }
+    &__link{
+      h1{
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+        padding-bottom: 10px;
+      }
+      p{
+        font-weight: 500;
+        font-size: 15px;
+        color: #FFFFFF;
+        margin: 15px 0;
+      }
+    }
+    &__media{
+      h1{
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+        padding-bottom: 10px;
+      }
+      &--icons{
+        &__icon{
+          font-size: 30px;
+          color: white;
+          margin: 10px 10px;
+        }
+      }
+    }
+    &__contacts{
+      h1{
+        font-weight: 400;
+        font-size: 20px;
+        color: #FFFFFF;
+        padding-bottom: 10px;
+      }
+      &--contact{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding-top: 20px;
+        font-size: 20px;
+        color: white;
+        h2{
+          font-weight: 400;
+          font-size: 16px;
+          color: #FFFFFF;
+          padding-left: 20px;
+        }
+      }
+    }
+    &__addresses{
+      h1{
+        font-weight: 400;
+        font-size: 20px;
+        color: #FFFFFF;
+        padding-bottom: 20px;
+      }
+      &--address{
+        display: flex;
+        padding-bottom: 20px;
+        font-size: 20px;
+        color: white;
+        h2{
+          font-weight: 400;
+          font-size: 15px;
+          color: #FFFFFF;
+          padding-left: 10px;
+
+        }
+      }
+      h2{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        color: #FFFFFF;
+      }
+    }
+  }
+}

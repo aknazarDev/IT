@@ -1,4 +1,20 @@
-@import './../styles/Header/header';
+@import "src/styles/Header/header";
+@import "src/styles/Hero/hero";
+@import "src/styles/Footer/footer";
+@import "src/styles/Articles/articles";
+@import "src/styles/Subscribe/subscribe";
+@import "src/styles/Questions/questions";
+@import "src/styles/Submit/submit";
+@import "src/styles/School/school";
+@import "src/styles/About/about";
+@import "src/styles/Course/course";
+@import "src/styles/Developments/developments";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .container{
   width: 1140px;
@@ -9,7 +25,7 @@ a{
   text-decoration: none;
 }
 
-*{
-  margin: 0;
-  padding: 0;
+body,html{
+  scroll-behavior: smooth;
+  background: #0A1128;
 }

@@ -1,0 +1,35 @@
+#hero {
+background: url("../../asstets/img/fr20.png") no-repeat center/cover;
+  min-height: 100vh;
+  padding-bottom: 150px;
+  .hero--general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__text {
+      margin-top: 15%;
+
+      h1 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 60px;
+        color: #FFFFFF;
+        width: 516px;
+        height: 120px;
+        margin-bottom: 40px;
+      }
+
+      p {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        color: #FFFFFF;
+      }
+    }
+    &__laptop{
+      margin-top: 120px;
+
+    }
+  }
+
+}

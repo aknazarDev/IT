@@ -1,0 +1,37 @@
+#school{
+  padding-top: 10%;
+  padding-bottom: 15%;
+  .school--general{
+    &__item{
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      padding-bottom: 5%;
+      h4{
+        font-weight: 400;
+        font-size: 16px;
+        color: #A5A5A5;
+      }
+    }
+    &__title{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &--block{
+        h1{
+          font-weight: 700;
+          font-size: 36px;
+          color: #FFFFFF;
+          padding-bottom: 20px;
+        }
+        p{
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 24px;
+          color: #FFFFFF;
+          padding-bottom: 40px;
+        }
+      }
+    }
+  }
+}
