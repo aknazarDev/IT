@@ -1,17 +1,46 @@
 import React from 'react';
+import arts from '../../asstets/img/left.png'
+import arka from '../../asstets/img/right.png'
+import Certificate from "./Certificate";
+import Sliders from "./Sliders";
+import Submit from "../Home/Submit";
 
 const About = () => {
     return (
-        <div>
-            <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolorem, dolores doloribus ea perferendis
-                quaerat qui quos rem voluptatibus. Nam, totam, voluptas? Asperiores, atque blanditiis commodi,
-                consequuntur, error harum maxime obcaecati optio possimus praesentium sequi similique! Cupiditate
-                debitis inventore laborum maiores maxime minus molestias, odio quos sit totam. Architecto cum delectus
-                enim esse est excepturi illo iste labore molestiae nesciunt nobis nostrum quaerat quas quasi,
-                repudiandae saepe sequi sunt temporibus vel, voluptas! Aliquid atque dolore doloribus, est ex
-                exercitationem fuga hic in ipsum magnam magni, maxime modi neque nesciunt nisi nostrum numquam optio
-                pariatur perspiciatis quas quasi ullam unde velit.</h1>
-        </div>
+        <>
+           <section id='about'>
+               <div className='container'>
+                   <div className='about--general'>
+                       <h1>
+                           Главная /<span> О нас</span>
+                       </h1>
+
+                       <div className='about--general__ok'>
+                           <div className='about--general__ok--to'>
+                               <h2>О нас</h2>
+                               <p>
+                                   Курсы IT-профессий Motion Web была основана в 2021-ом году в Бишкеке с целью <br/>дать возможность каждому человеку, даже без опыта в технологиях, гарантированно <br/>
+                                   освоить IT-профессию.
+                                   <br/>
+                                   <br/>
+                                   <span>Форма обучения - онлайн, с применением электронного обучения и дистанционных образовательных технологий  на образовательной платформе Moodle и прямые эфиры с преподавателем. 154 академических часа трудоёмкости учебной деятельности отведено практическим занятиям и выполнению практических заданий.</span>
+                               </p>
+                           </div>
+                           <div className='about--general__ok--no'>
+                               <img src={arts} alt=""/>
+                               <img src={arka} alt=""/>
+                           </div>
+
+                       </div>
+
+                   </div>
+
+               </div>
+           </section>
+            <Certificate/>
+            <Sliders/>
+            <Submit/>
+        </>
     );
 };
 

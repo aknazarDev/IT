@@ -1,0 +1,26 @@
+#certificate{
+  .certificate--general{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 140px;
+    h1{
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 60px;
+      color: #FFFFFF;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    p{
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 25px;
+      text-align: center;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+    }
+
+  }
+}
