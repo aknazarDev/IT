@@ -1,5 +1,10 @@
 import React from 'react';
 import abroad from '../../asstets/img/artboard.png'
+import {BsArrowRight} from 'react-icons/bs'
+import Team from "./Team";
+import Master from "./Master";
+import Dollar from "./Dollar";
+import Submit from "../Home/Submit";
 
 const School = () => {
     return (
@@ -19,8 +24,8 @@ const School = () => {
                                     <br/> профессию, войти в IT и зарабатывать больше.</p>
                                 <h1>Наша миссия:</h1>
                                 <p>Сформировать интерес к современным технологиям
-                                    <br /> и помочь школьнику определиться с выбором
-                                    <br /> будущей специальности.</p>
+                                    <br/> и помочь школьнику определиться с выбором
+                                    <br/> будущей специальности.</p>
                             </div>
                             <img src={abroad} alt="img"/>
                         </div>
@@ -28,6 +33,10 @@ const School = () => {
                     </div>
                 </div>
             </section>
+            <Team/>
+            <Master/>
+            <Dollar/>
+            <Submit/>
         </>
     );
 };
