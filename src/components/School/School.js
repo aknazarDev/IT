@@ -5,6 +5,7 @@ import Team from "./Team";
 import Master from "./Master";
 import Dollar from "./Dollar";
 import Submit from "../Home/Submit";
+import Sliders from "../About/Sliders";
 
 const School = () => {
     return (
@@ -36,6 +37,7 @@ const School = () => {
             <Team/>
             <Master/>
             <Dollar/>
+            <Sliders/>
             <Submit/>
         </>
     );
