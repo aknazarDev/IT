@@ -1,0 +1,96 @@
+#dollar {
+  .dollar--general {
+    &__item {
+      h1 {
+        font-weight: 700;
+        font-size: 36px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 30px;
+      }
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+    }
+    &__blocks {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &--block {
+        button {
+          &:hover {
+            transform: scale(1.1);
+            background: #101b3f;
+          }
+        }
+        margin: 60px 0;
+        padding: 20px;
+        width: 346px;
+        height: 325px;
+        background: #0A1128;
+        box-shadow: 6px 6px 14px -117px #132049, -4px -3px 24px #040B23;
+        border-radius: 10px;
+        transition: .4s;
+
+        h5 {
+          font-weight: 700;
+          font-size: 16px;
+          color: #FFFFFF;
+        }
+        p {
+          font-weight: 400;
+          font-size: 15px;
+          color: #FFFFFF;
+        }
+        h2 {
+          font-weight: 500;
+          font-size: 48px;
+          color: #FFFFFF;
+          margin: 15px;
+        }
+        &__btn {
+          display: flex;
+          align-items: center;
+          justify-content: start;
+
+          &--one {
+            width: 150px;
+            height: 37px;
+            border: none;
+            background: linear-gradient(94.1deg, #043C6F 2.34%, #154574 99.76%);
+            backdrop-filter: blur(4.90909px);
+            border-radius: 3.27273px;
+            font-weight: 400;
+            font-size: 12px;
+            text-align: center;
+            color: #FFFFFF;
+            margin: 20px 10px;
+            transition: .3s;
+            cursor: pointer;
+          }
+          &--two {
+            width: 130px;
+            height: 38px;
+            border: none;
+            background: linear-gradient(94.1deg, #043C6F 2.34%, #154574 99.76%);
+            backdrop-filter: blur(4.90909px);
+            border-radius: 3.27273px;
+            font-weight: 400;
+            font-size: 12px;
+            text-align: center;
+            color: #FFFFFF;
+            transition: .3s;
+            cursor: pointer;
+          }
+        }
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}
