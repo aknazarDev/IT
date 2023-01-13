@@ -4,8 +4,8 @@
   .submit--general{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     &__title{
+      padding-top: 20px;
       h1{
         font-weight: 700;
         font-size: 36px;

@@ -13,6 +13,14 @@
 @import "src/styles/Dollar/dollar";
 @import "src/styles/Certificate/certificate";
 
+@import "src/styles/Course/mediaCourse";
+@import "src/styles/Hero/mediaHero";
+@import "src/styles/Articles/mediaArticl";
+@import "src/styles/Subscribe/mediaSubscribe";
+@import "src/styles/Questions/mediaQuestion";
+@import "src/styles/Submit/mediaSumbit";
+
+
 @import "src/styles/About/mediaAbout";
 @import "src/styles/Certificate/mediaCertificate";
 @import "src/styles/Sliders/mediaSliders";
@@ -22,7 +30,9 @@
 @import "src/styles/Team/mediaTeam";
 @import "src/styles/School/mediaSchool";
 
+
 @import "Sliders/sliders";
+
 
 *{
   margin: 0;
