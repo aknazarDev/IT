@@ -10,12 +10,12 @@ import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 
 const Sliders = () => {
-    const setting = {
+    const settings = {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 3
+        slidesToShow: 2,
+        slidesToScroll: 2
     };
 
     const block = [{
@@ -60,7 +60,7 @@ const Sliders = () => {
             <div className="container">
                 <div className="slider--general">
                     <h3>Отзывы наших студентов</h3>
-                    <Slider {...setting}>
+                    <Slider {...settings}>
                         {block.map((el, idx) => (
                             <div  className='slider--general__block' key={idx}>
                                 <img className='slider--general__block--phone' src={el.image} alt=""/>

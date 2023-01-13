@@ -11,16 +11,15 @@
       color: #FFFFFF;
     }
     &__block {
-      width: 210px;
+      width: 90% !important;
       height: 292px;
       background: #102146;
       border-radius: 10px;
-      margin: 100px 0;
-
+      margin: 47px;
       img {
         width: 28%;
         height: 28%;
-        margin-left: 140px;
+        margin-left: 180px;
         margin-top: -40px;
       }
     }
@@ -39,7 +38,7 @@
       line-height: 20px;
       text-align: center;
       color: #FFFFFF;
-      width: 307px;
+      width: 384px;
       margin-left: 10%;
     }
 
