@@ -1,0 +1,204 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1140px) {
+  #articles {
+    .articles--general {
+      &__blocks {
+        justify-content: space-around;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #articles {
+    .articles--general {
+      &__title {
+        padding-right: 10%;
+      }
+
+      &__blocks {
+        margin-right: 10%;
+        width: 70%;
+      }
+
+      &__btn {
+        margin-right: 10%;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #articles {
+    .articles--general {
+      &__title {
+        padding-right: 13%;
+      }
+
+      &__blocks {
+        margin-right: 13%;
+      }
+
+      &__btn {
+        margin-right: 13%;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #articles {
+    .articles--general {
+      &__title {
+        padding-right: 32%;
+      }
+
+      &__blocks {
+        margin-right: 33%;
+        justify-content: space-evenly;
+      }
+
+      &__btn {
+        margin-right: 32%;
+      }
+    }
+  }
+}
+
+@media (max-width: 579px) {
+  #articles {
+    .articles--general {
+      &__title {
+        padding-right: 49%;
+      }
+
+      &__blocks {
+        margin-right: 48%;
+        width: 60%;
+      }
+
+      &__btn {
+        margin-right: 48%;
+      }
+    }
+  }
+}
+
+@media (max-width: 452px) {
+  #articles {
+    .articles--general {
+      &__title {
+        padding-right: 61%;
+        font-size: 34px;
+      }
+
+      &__blocks {
+        margin-right: 60%;
+      }
+
+      &__btn {
+        margin-right: 60%;
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  #articles {
+    .articles--general {
+      &__title {
+        padding-right: 63%;
+      }
+
+      &__blocks {
+        margin-right: 63%;
+      }
+
+      &__btn {
+        margin-right: 63%;
+      }
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  #articles {
+    .articles--general {
+      &__title {
+        padding-right: 67%;
+        font-size: 33px;
+      }
+
+      &__blocks {
+        margin-right: 67%;
+      }
+
+      &__btn {
+        margin-right: 67%;
+      }
+    }
+  }
+}
+
+@media (max-width: 371px) {
+  #articles {
+    .articles--general {
+      &__title {
+        padding-right: 68%;
+        font-size: 30px;
+      }
+
+      &__blocks {
+        margin-right: 67.5%;
+      }
+
+      &__btn {
+        margin-right: 67.5%;
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #articles {
+    .articles--general {
+      &__title {
+        padding-right: 72%;
+        font-size: 25px;
+      }
+
+      &__blocks {
+        margin-right: 71.5%;
+        width: 30%;
+
+        &--block {
+          width: 300px;
+          height: 370px;
+
+          img {
+            width: 300px;
+          }
+
+          p {
+            br {
+              display: none;
+            }
+          }
+
+          &__desc {
+            width: 300px;
+          }
+        }
+      }
+
+      &__btn {
+        margin-right: 72%;
+      }
+    }
+  }
+}

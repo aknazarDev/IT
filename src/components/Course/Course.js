@@ -28,7 +28,7 @@ const Course = () => {
                                     <BsArrowRight className="course--general__group--block__desk--arrow"/>
                                 </div>
                             </div>
-                            <div className="course--general__group--block width">
+                            <div className="course--general__group--block">
                                 <h1>UX / UI Дизайнер</h1>
                                 <p>Креативный специалист, который придумывает дизайн и интерфейс продукта. Специалист UX/UI отвечает за подбор форм, цветов, Функциональности дизайна и прочих важных параметров для комфорьного использования продукта.</p>
                                 <div className="course--general__group--block__desk">
