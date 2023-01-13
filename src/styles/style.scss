@@ -12,12 +12,25 @@
 @import "src/styles/Master/master";
 @import "src/styles/Dollar/dollar";
 @import "src/styles/Certificate/certificate";
+
 @import "src/styles/Course/mediaCourse";
 @import "src/styles/Hero/mediaHero";
 @import "src/styles/Articles/mediaArticl";
 @import "src/styles/Subscribe/mediaSubscribe";
 @import "src/styles/Questions/mediaQuestion";
 @import "src/styles/Submit/mediaSumbit";
+
+
+@import "src/styles/About/mediaAbout";
+@import "src/styles/Certificate/mediaCertificate";
+@import "src/styles/Sliders/mediaSliders";
+
+@import "src/styles/Master/mediaMaster";
+@import "src/styles/Dollar/mediaDollar";
+@import "src/styles/Team/mediaTeam";
+@import "src/styles/School/mediaSchool";
+
+
 @import "Sliders/sliders";
 
 
@@ -28,7 +41,7 @@
 }
 
 .container{
-  width: 1140px;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -39,4 +52,10 @@ a{
 body,html{
   scroll-behavior: smooth;
   background: #0A1128;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
 }
