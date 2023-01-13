@@ -1,4 +1,16 @@
 #articles {
+  .articles--h2 {
+    padding-top: 150px;
+    padding-right: 85%;
+    font-weight: 400;
+    font-size: 16px;
+    color: #A5A5A5;
+    cursor: pointer;
+    span{
+      color: #FFFFFF;
+    }
+  }
+  .articles--general {
   .articles--general {
     margin-top: -195px;
     display: flex;

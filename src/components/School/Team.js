@@ -1,5 +1,6 @@
 import React from 'react';
 import {BsArrowRight} from "react-icons/bs";
+import {Link} from "react-router-dom";
 
 const Team = () => {
     return (
@@ -47,7 +48,9 @@ const Team = () => {
                             </div>
                         </div>
                         <div className='team--general__btn'>
-                            <button>Все курсы</button>
+                           <Link to={'/course'}>
+                               <button>Все курсы</button>
+                           </Link>
                         </div>
                     </div>
                 </div>

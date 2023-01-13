@@ -7,15 +7,19 @@ import {TbBrandTelegram, TbBrandTiktok} from "react-icons/tb";
 import {TfiEmail} from "react-icons/tfi";
 import {BsTelephone} from "react-icons/bs";
 import {BiMap} from "react-icons/bi";
+import {Link} from "react-router-dom";
 
 const Footer = () => {
+    window.scroll(0,0)
     return (
         <>
             <footer id="footer">
                 <div className="container">
                     <div className="footer--general">
                         <div className="footer--general__title">
-                            <img src={logo} alt="img"/>
+                            <Link to='/home'>
+                                <img src={logo} alt=""/>
+                            </Link>
                             <div className='footer--general__title--block'>
                                 <div className='footer--general__title--block__language'>
                                     <h1>KG</h1>
@@ -28,9 +32,15 @@ const Footer = () => {
                         </div>
                         <div className="footer--general__link">
                             <h1>Быстрые ссылки</h1>
-                            <p>О школе</p>
-                            <p>Наши курсы</p>
-                            <p>О нас</p>
+                            <Link to={'/school'}>
+                                <p>О школе</p>
+                            </Link>
+                            <Link to={'/course'}>
+                                <p>Наши курсы</p>
+                            </Link>
+                            <Link to={'/about'}>
+                                <p>О нас</p>
+                            </Link>
                         </div>
                         <div className="footer--general__media">
                             <h1>Социальные сети</h1>

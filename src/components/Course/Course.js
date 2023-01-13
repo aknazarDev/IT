@@ -1,14 +1,18 @@
 import React from 'react';
 import {BsArrowRight} from "react-icons/bs";
+import {Link} from "react-router-dom";
 
 const Course = () => {
+    window.scroll(0,0)
     return (
         <>
             <section id="course">
                 <div className="container">
                     <div className="course--general">
                         <div className="course--general__title">
-                            <h1>Главная<span>/ Наши курсы</span></h1>
+                            <Link to={'/home'}>
+                                <h1>Главная / <Link to={'/course'}><span style={{color:'white'}}>Наши курсы</span></Link></h1>
+                            </Link>
                         </div>
                         <h2>Курсы</h2>
                         <div className="course--general__group">

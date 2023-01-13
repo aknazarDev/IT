@@ -1,22 +1,30 @@
 import React from 'react';
-import art from '../../asstets/img/art.png'
+import art from "../../asstets/img/art.png";
 import {HiOutlineClipboardList} from "react-icons/hi";
 import {Link} from "react-router-dom";
 
-const Articles = () => {
+const Articlese = () => {
+    window.scroll(0, 0)
     return (
         <>
             <section id="articles">
                 <div className="container">
+                    <Link to={'/home'}>
+                        <h2 className='articles--h2'>
+                            Главная /<Link to={'/course'}><span>Наши курсы</span></Link>
+                        </h2>
+                    </Link>
                     <div className="articles--general">
-                        <h1 className='articles--general__title'>Последние статьи</h1>
-                        <div className="articles--general__blocks">
+                        <h1 className='articles--general__title'>Статьи</h1>
+                        <div className="articles--general__blocks" style={{
+                            paddingBottom: '50px'
+                        }}>
                             <div className="articles--general__blocks--block">
                                 <img src={art} alt="img"/>
                                 <h4>Статьи</h4>
                                 <p>Мы подготовили подборку самых
-                                    <br /> популярных курсов по направлению
-                                    <br /> Java в IBS Training Center. </p>
+                                    <br/> популярных курсов по направлению
+                                    <br/> Java в IBS Training Center. </p>
                                 <div className="articles--general__blocks--block__desc">
                                     <div className='articles--general__blocks--block__desc--icon'>
                                         <HiOutlineClipboardList/>
@@ -29,8 +37,8 @@ const Articles = () => {
                                 <img src={art} alt="img"/>
                                 <h4>Статьи</h4>
                                 <p>Мы подготовили подборку самых
-                                    <br /> популярных курсов по направлению
-                                    <br /> Java в IBS Training Center. </p>
+                                    <br/> популярных курсов по направлению
+                                    <br/> Java в IBS Training Center. </p>
                                 <div className="articles--general__blocks--block__desc">
                                     <div className='articles--general__blocks--block__desc--icon'>
                                         <HiOutlineClipboardList/>
@@ -43,8 +51,8 @@ const Articles = () => {
                                 <img src={art} alt="img"/>
                                 <h4>Статьи</h4>
                                 <p>Мы подготовили подборку самых
-                                    <br /> популярных курсов по направлению
-                                    <br /> Java в IBS Training Center. </p>
+                                    <br/> популярных курсов по направлению
+                                    <br/> Java в IBS Training Center. </p>
                                 <div className="articles--general__blocks--block__desc">
                                     <div className='articles--general__blocks--block__desc--icon'>
                                         <HiOutlineClipboardList/>
@@ -57,8 +65,8 @@ const Articles = () => {
                                 <img src={art} alt="img"/>
                                 <h4>Статьи</h4>
                                 <p>Мы подготовили подборку самых
-                                    <br /> популярных курсов по направлению
-                                    <br /> Java в IBS Training Center. </p>
+                                    <br/> популярных курсов по направлению
+                                    <br/> Java в IBS Training Center. </p>
                                 <div className="articles--general__blocks--block__desc">
                                     <div className='articles--general__blocks--block__desc--icon'>
                                         <HiOutlineClipboardList/>
@@ -71,8 +79,8 @@ const Articles = () => {
                                 <img src={art} alt="img"/>
                                 <h4>Статьи</h4>
                                 <p>Мы подготовили подборку самых
-                                    <br /> популярных курсов по направлению
-                                    <br /> Java в IBS Training Center. </p>
+                                    <br/> популярных курсов по направлению
+                                    <br/> Java в IBS Training Center. </p>
                                 <div className="articles--general__blocks--block__desc">
                                     <div className='articles--general__blocks--block__desc--icon'>
                                         <HiOutlineClipboardList/>
@@ -85,8 +93,8 @@ const Articles = () => {
                                 <img src={art} alt="img"/>
                                 <h4>Статьи</h4>
                                 <p>Мы подготовили подборку самых
-                                    <br /> популярных курсов по направлению
-                                    <br /> Java в IBS Training Center. </p>
+                                    <br/> популярных курсов по направлению
+                                    <br/> Java в IBS Training Center. </p>
                                 <div className="articles--general__blocks--block__desc">
                                     <div className='articles--general__blocks--block__desc--icon'>
                                         <HiOutlineClipboardList/>
@@ -96,9 +104,6 @@ const Articles = () => {
                                 </div>
                             </div>
                         </div>
-                        <Link to={'/articlese'}>
-                            <button className='articles--general__btn'>Показать больше</button>
-                        </Link>
                     </div>
                 </div>
             </section>
@@ -106,4 +111,4 @@ const Articles = () => {
     );
 };
 
-export default Articles;
+export default Articlese;
