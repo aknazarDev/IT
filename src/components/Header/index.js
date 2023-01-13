@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../asstets/img/logo.svg'
-import {Link} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 
 
 const Header = () => {
@@ -10,18 +10,20 @@ const Header = () => {
                 <div className="container">
                     <div className="header--general">
                         <div className='header--general__link'>
-                            <Link to='/'>
+                            <Link to='/home'>
                                 <img src={logo} alt=""/>
                             </Link>
                             <nav className='header--general__link--nav'>
-                                <Link className='header--general__link--nav__block' to='/school'>О школе</Link>
-                                <Link className='header--general__link--nav__block' to='/course'>Наши курсы</Link>
-                                <Link className='header--general__link--nav__block' to='/about'>О нас</Link>
+                                <NavLink className='header--general__link--nav__block' to={'/school'}>О школе</NavLink>
+                                <NavLink className='header--general__link--nav__block' to={'/course'}>Наши курсы</NavLink>
+                                <NavLink className='header--general__link--nav__block' to={'/about'}>О нас</NavLink>
                             </nav>
                         </div>
                         <div className='header--general__subs'>
-                            <a className='header--general__subs--bot' href="#">Войти</a>
-                            <button>Подписаться</button>
+                            <Link className='header--general__subs--bot' to={'/checking'}>Войти</Link>
+                            <Link to={'/package'}>
+                                <button>Подписаться</button>
+                            </Link>
                         </div>
                     </div>
                 </div>

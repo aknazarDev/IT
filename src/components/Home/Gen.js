@@ -6,6 +6,7 @@ import Questions from "./Questions";
 import Submit from "./Submit";
 
 const Gen = () => {
+    window.scroll(0,0)
     return (
         <>
             <Hero/>

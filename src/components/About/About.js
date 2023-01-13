@@ -4,16 +4,18 @@ import arka from '../../asstets/img/right.png'
 import Certificate from "./Certificate";
 import Sliders from "./Sliders";
 import Submit from "../Home/Submit";
+import {Link} from "react-router-dom";
 
 const About = () => {
+    window.scroll(0,0)
     return (
         <>
            <section id='about'>
                <div className='container'>
                    <div className='about--general'>
-                       <h1>
-                           Главная /<span> О нас</span>
-                       </h1>
+                       <Link to={'/home'}>
+                           <h1>Главная / <Link to={'/about'}><span style={{color:'white'}}>О нас</span></Link></h1>
+                       </Link>
 
                        <div className='about--general__ok'>
                            <div className='about--general__ok--to'>

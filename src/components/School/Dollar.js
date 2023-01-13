@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 const Dollar = () => {
     return (
@@ -19,7 +20,9 @@ const Dollar = () => {
                                 <p>Ежемесячно</p>
                                 <div className='dollar--general__blocks--block__btn'>
                                    <button className='dollar--general__blocks--block__btn--one'>Оформить подписку</button>
-                                   <button className='dollar--general__blocks--block__btn--two'>Подробнее</button>
+                                    <Link to={'/package'}>
+                                        <button className='dollar--general__blocks--block__btn--two'>Подробнее</button>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="dollar--general__blocks--block">
@@ -29,7 +32,9 @@ const Dollar = () => {
                                 <p>Ежегодно</p>
                                 <div className='dollar--general__blocks--block__btn'>
                                     <button className='dollar--general__blocks--block__btn--one'>Оформить подписку</button>
-                                    <button className='dollar--general__blocks--block__btn--two'>Подробнее</button>
+                                    <Link to={'/package'}>
+                                        <button className='dollar--general__blocks--block__btn--two'>Подробнее</button>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="dollar--general__blocks--block">
@@ -39,7 +44,9 @@ const Dollar = () => {
                                 <p>Ежемесячно</p>
                                 <div className='dollar--general__blocks--block__btn'>
                                     <button className='dollar--general__blocks--block__btn--one'>Оформить подписку</button>
-                                    <button className='dollar--general__blocks--block__btn--two'>Подробнее</button>
+                                    <Link to={'/package'}>
+                                        <button className='dollar--general__blocks--block__btn--two'>Подробнее</button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

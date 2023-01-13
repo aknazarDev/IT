@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 const Subscribe = () => {
     return (
@@ -13,7 +14,9 @@ const Subscribe = () => {
                         </div>
                         <div className="subscribe--general__block--btn">
                             <button className='subscribe--general__block--btn'>Оформить подписку</button>
-                            <p>Подробнее о пакетах </p>
+                            <Link to={'/package'}>
+                                <p>Подробнее о пакетах </p>
+                            </Link>
                         </div>
                     </div>
                 </div>

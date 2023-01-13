@@ -12,12 +12,17 @@
 @import "src/styles/Master/master";
 @import "src/styles/Dollar/dollar";
 @import "src/styles/Certificate/certificate";
+@import "src/styles/Package/package";
+@import "src/styles/Header/mediaHeader";
+@import "src/styles/Footer/mediaFooter";
+@import "src/styles/Checking/checking";
 @import "Sliders/sliders";
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .container{
@@ -30,6 +35,5 @@ a{
 }
 
 body,html{
-  scroll-behavior: smooth;
   background: #0A1128;
 }

@@ -6,16 +6,22 @@ import Master from "./Master";
 import Dollar from "./Dollar";
 import Submit from "../Home/Submit";
 import Sliders from "../About/Sliders";
+import {Link} from "react-router-dom";
 
 const School = () => {
+    window.scroll(0,0)
     return (
         <>
             <section id="school">
                 <div className="container">
                     <div className="school--general">
                         <div className="school--general__item">
-                            <h4>Главная / </h4>
-                            <h4>О школе</h4>
+                            <Link to={'/home'}>
+                                <h4>Главная  /</h4>
+                            </Link>
+                            <Link to={'/school'}>
+                                <h4 style={{color:'white',paddingLeft:'5px'}}>О школе</h4>
+                            </Link>
                         </div>
                         <div className="school--general__title">
                             <div className="school--general__title--block">
