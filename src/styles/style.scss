@@ -12,6 +12,10 @@
 @import "src/styles/Master/master";
 @import "src/styles/Dollar/dollar";
 @import "src/styles/Certificate/certificate";
+@import "src/styles/Master/mediaMaster";
+@import "src/styles/Dollar/mediaDollar";
+@import "src/styles/Team/mediaTeam";
+@import "src/styles/School/mediaSchool";
 @import "Sliders/sliders";
 
 *{
@@ -21,7 +25,7 @@
 }
 
 .container{
-  width: 1140px;
+  width: 85%;
   margin: 0 auto;
 }
 
