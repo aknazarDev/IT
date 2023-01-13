@@ -1,3 +1,5 @@
+@import "mediaTeam";
+
 #team {
   .team--general {
     &__item {
@@ -11,35 +13,36 @@
         color: white;
       }
     }
-    &__title {
-      margin: 25px 0;
-      padding: 20px;
-      width: 370px;
-      height: 283.5px;
-      background: #FFFFFF;
-      border-radius: 15px;
-      &--enter {
-        display: flex;
-        align-items: center;
-        h5 {
-          font-weight: 700;
-          font-size: 16px;
-          margin: 0 10px;
-          color: #000000;
-        }
-      }
-      p {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 20px;
-        margin: 12px 0;
-        color: #000000;
-      }
-    }
     &__blocks {
       display: flex;
       align-items: center;
       justify-content: space-between;
+      &--title {
+        margin: 25px 0;
+        padding: 20px;
+        width: 370px;
+        height: 283.5px;
+        background: #FFFFFF;
+        border-radius: 15px;
+
+        &__enter {
+          display: flex;
+          align-items: center;
+          h5 {
+            font-weight: 700;
+            font-size: 16px;
+            margin: 0 10px;
+            color: #000000;
+          }
+        }
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+          margin: 12px 0;
+          color: #000000;
+        }
+      }
     }
     &__btn {
       display: flex;
@@ -66,3 +69,40 @@
 
   }
 }
+
+
+
+@media (max-width: 768px) {
+  #team .team--general__blocks{
+    display: flex;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -11,6 +11,8 @@
     }
   }
   .articles--general {
+  .articles--general {
+    margin-top: -195px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,6 +32,8 @@
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
+      background: rgba(10, 17, 40, 0.4);
+
 
       &--block {
         margin: 40px 0 0 0;
