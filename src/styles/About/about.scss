@@ -1,3 +1,4 @@
+//@import "mediaAbout";
 #about{
   .about--general{
     padding-top: 200px;
@@ -14,7 +15,6 @@
         font-size: 16px;
         line-height: 20px;
         color: #FFFFFF;
-
       }
     }
     &__ok{
@@ -50,4 +50,10 @@
     }
 
   }
+}
+
+@media (max-width: 1200px) {
+
+
+
 }
