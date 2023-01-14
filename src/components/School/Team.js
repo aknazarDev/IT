@@ -8,9 +8,11 @@ const Team = () => {
             <section id="team">
                 <div className='container'>
                     <div className="team--general">
+                        <div className='team--general__circle'></div>
                         <div className="team--general__item">
                             <h2>Курсы</h2>
                         </div>
+
                         <div className='team--general__blocks'>
                             <div className="team--general__blocks--title">
                                 <h3>Frontend-разработчик</h3>

@@ -1,15 +1,19 @@
 #footer {
   padding-bottom: 100px;
+
   .footer--general {
     display: flex;
     justify-content: space-between;
     align-items: start;
+
     &__title {
-      img{
+      img {
         padding-bottom: 30px;
       }
+
       &--block {
         display: flex;
+
         &__language {
           display: flex;
           justify-content: center;
@@ -23,86 +27,111 @@
             font-weight: 400;
             font-size: 16px;
             color: #FFFFFF;
+            cursor: pointer;
+
           }
         }
       }
     }
-    &__link{
-      h1{
+
+    &__link {
+      h1 {
         font-weight: 500;
         font-size: 20px;
         color: #FFFFFF;
         padding-bottom: 10px;
+        cursor: pointer;
       }
-      p{
+
+      p {
         font-weight: 500;
         font-size: 15px;
         color: #FFFFFF;
         margin: 15px 0;
+        cursor: pointer;
+
       }
     }
-    &__media{
-      h1{
+
+    &__media {
+      h1 {
         font-weight: 500;
         font-size: 20px;
         color: #FFFFFF;
         padding-bottom: 10px;
+        cursor: pointer;
+
       }
-      &--icons{
-        &__icon{
+
+      &--icons {
+        &__icon {
           font-size: 30px;
           color: white;
           margin: 10px 10px;
+          cursor: pointer;
+
         }
       }
     }
-    &__contacts{
-      h1{
+
+    &__contacts {
+      h1 {
         font-weight: 400;
         font-size: 20px;
         color: #FFFFFF;
         padding-bottom: 10px;
+        cursor: pointer;
       }
-      &--contact{
+
+      &--contact {
         display: flex;
         justify-content: start;
         align-items: center;
         padding-top: 20px;
         font-size: 20px;
         color: white;
-        h2{
+        cursor: pointer;
+
+        h2 {
           font-weight: 400;
           font-size: 16px;
           color: #FFFFFF;
           padding-left: 20px;
+          cursor: pointer;
         }
       }
     }
-    &__addresses{
-      h1{
+
+    &__addresses {
+      h1 {
         font-weight: 400;
         font-size: 20px;
         color: #FFFFFF;
         padding-bottom: 20px;
+        cursor: pointer;
       }
-      &--address{
+
+      &--address {
         display: flex;
         padding-bottom: 20px;
         font-size: 20px;
         color: white;
-        h2{
+
+        h2 {
           font-weight: 400;
           font-size: 15px;
           color: #FFFFFF;
           padding-left: 10px;
-
+          cursor: pointer;
         }
       }
-      h2{
+
+      h2 {
         font-weight: 400;
         font-size: 15px;
         line-height: 18px;
         color: #FFFFFF;
+        cursor: pointer;
       }
     }
   }
