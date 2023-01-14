@@ -9,7 +9,9 @@ const Articles = () => {
             <section id="articles">
                 <div className="container">
                     <div className="articles--general">
-                        <h1 className='articles--general__title'>Последние статьи</h1>
+                        <h1 className='articles--general__title' style={{
+                            textAlign:'center'
+                        }}>Последние статьи</h1>
                         <div className="articles--general__blocks">
                             <div className="articles--general__blocks--block">
                                 <img src={art} alt="img"/>
@@ -97,7 +99,9 @@ const Articles = () => {
                             </div>
                         </div>
                         <Link to={'/articlese'}>
-                            <button className='articles--general__btn'>Показать больше</button>
+                            <button style={{
+                                marginLeft:'41%'
+                            }} className='articles--general__btn'>Показать больше</button>
                         </Link>
                     </div>
                 </div>
