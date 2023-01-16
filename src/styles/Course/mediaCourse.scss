@@ -68,8 +68,13 @@
 
 }
 
-@media (max-width: 425px) {
-
+@media (max-width: 426px) {
+  #course .course--general__group {
+    padding-left: 215px;
+  }
+  #course .course--general h2 {
+    margin-left: 270px;
+  }
 }
 
 @media (max-width: 380px) {

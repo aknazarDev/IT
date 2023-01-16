@@ -19,6 +19,10 @@
       justify-content: space-evenly;
     }
   }
+  #questions .questions--general {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 992px) {
@@ -28,12 +32,21 @@
 
 
 }
-@media (max-width: 579px) {
-
+@media (max-width: 580px) {
+  #questions .questions--general {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 140px;
+  }
 
 }
 @media (max-width: 452px) {
 
+  #questions .questions--general {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 257px;
+  }
 
 
 }
@@ -49,5 +62,9 @@
 
 }
 @media (max-width: 320px ) {
-
+  #questions .questions--general {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 335px;
+  }
 }
