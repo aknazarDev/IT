@@ -45,9 +45,9 @@ const Footer = () => {
                         <div className="footer--general__media">
                             <h1>Социальные сети</h1>
                             <div className='footer--general__media--icons'>
-                                <AiOutlineInstagram className='footer--general__media--icons__icon'/>
-                                <FiYoutube className='footer--general__media--icons__icon'/>
-                                <CiFacebook className='footer--general__media--icons__icon'/>
+                                <a href="https://www.instagram.com/motion_web/"><AiOutlineInstagram className='footer--general__media--icons__icon'/></a>
+                                <a href="https://www.youtube.com/@motionwebllc683"><FiYoutube className='footer--general__media--icons__icon'/></a>
+                                <a href="#"><CiFacebook className='footer--general__media--icons__icon'/></a>
                             </div>
                             <div className='footer--general__media--icons'>
                                 <CiTwitter className='footer--general__media--icons__icon'/>
@@ -59,11 +59,11 @@ const Footer = () => {
                             <h1>Контакты</h1>
                             <div className='footer--general__contacts--contact'>
                                 <TfiEmail/>
-                                <h2>@motionwebteam@gmail.com</h2>
+                                <a href="https://www.instagram.com/motion_web/"><h2>@motionwebteam@gmail.com</h2></a>
                             </div>
                             <div className='footer--general__contacts--contact'>
                                 <BsTelephone/>
-                                <h2>+996 559 - 69 - 26 - 26</h2>
+                                <a href="tel: +996"><h2>+996 559 - 69 - 26 - 26</h2></a>
                             </div>
                         </div>
                         <div className="footer--general__addresses">

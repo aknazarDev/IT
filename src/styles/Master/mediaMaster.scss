@@ -71,7 +71,7 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 580px) {
   .container {
     width: 90%;
   }
@@ -102,6 +102,10 @@
         }
       }
     }
+  }
+  #master .master--general__blocks--block {
+    width: 560px;
+    height: 180px;
   }
 }
 

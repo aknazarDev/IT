@@ -2,6 +2,7 @@
   .container {
     width: 90%;
   }
+
 }
 
 @media (max-width: 1140px) {
@@ -15,58 +16,31 @@
 }
 
 @media (max-width: 1024px) {
-  #articles {
-    .articles--general {
-      &__title {
-        padding-right: 10%;
-      }
-
-      &__blocks {
-        margin-right: 10%;
-        width: 70%;
-      }
-
-      &__btn {
-        margin-right: 10%;
-      }
-    }
+  #articles .articles--general .articles--general__blocks--block {
+    margin: 47px 0 0 0;
+    margin-left: 10%;
+    width: 350px;
+    height: 355px;
+    background: #FFFFFF;
+    border-radius: 19px 19px 19px 19px;
+  }
+  #articles .articles--general .articles--general__title {
+    padding-top: 247px;
+    margin-left: 95px;
   }
 }
 
 @media (max-width: 992px) {
-  #articles {
-    .articles--general {
-      &__title {
-        padding-right: 13%;
-      }
-
-      &__blocks {
-        margin-right: 13%;
-      }
-
-      &__btn {
-        margin-right: 13%;
-      }
-    }
+  #articles .articles--general .articles--general__blocks--block {
+    margin-left: 10%;
   }
+
 }
 
 @media (max-width: 768px) {
-  #articles {
-    .articles--general {
-      &__title {
-        padding-right: 32%;
-      }
-
-      &__blocks {
-        margin-right: 33%;
-        justify-content: space-evenly;
-      }
-
-      &__btn {
-        margin-right: 32%;
-      }
-    }
+  #articles .articles--general .articles--general__title {
+    margin-top: 80px;
+    margin-left: 143px;
   }
 }
 
@@ -105,6 +79,16 @@
         margin-right: 60%;
       }
     }
+  }
+  #articles .articles--general .articles--general__title {
+    padding-top: 257px;
+  }
+  #articles .articles--general .articles--general__blocks--block {
+    margin-left: 450%;
+  }
+  #articles .articles--general .articles--general__title {
+    padding-top: 247px;
+    margin-left: 287px;
   }
 }
 
@@ -165,40 +149,7 @@
 }
 
 @media (max-width: 320px) {
-  #articles {
-    .articles--general {
-      &__title {
-        padding-right: 72%;
-        font-size: 25px;
-      }
-
-      &__blocks {
-        margin-right: 71.5%;
-        width: 30%;
-
-        &--block {
-          width: 300px;
-          height: 370px;
-
-          img {
-            width: 300px;
-          }
-
-          p {
-            br {
-              display: none;
-            }
-          }
-
-          &__desc {
-            width: 300px;
-          }
-        }
-      }
-
-      &__btn {
-        margin-right: 72%;
-      }
-    }
+  #articles .articles--general .articles--general__blocks {
+    margin-left: 234px;
   }
 }

@@ -13,16 +13,13 @@
 }
 
 @media (max-width: 1024px) {
-  #submit {
-    .submit--general {
-      margin-left: -105px;
-      justify-content: space-evenly;
-      &__inputs {
-        input {
-          width: 490px;
-        }
-      }
-    }
+  #submit .submit--general {
+    margin-left: 49px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -66,15 +63,16 @@
   }
 }
 
-@media (max-width: 579px) {
+@media (max-width: 580px) {
   #submit {
     .submit--general {
       flex-direction: column;
       margin-left: 40px;
       &__title {
         h1 {
-          margin-left: 90px;
+          margin-left: -1px;
           font-size: 34px;
+
         }
         p {
           width: 37%;
@@ -94,17 +92,23 @@
       }
     }
   }
+  #submit .submit--general__title p {
+    width: 57%;
+  }
+
 }
 
 @media (max-width: 452px) {
   #submit {
     .submit--general {
+      margin-left: 40%;
       &__title {
         h1 {
           margin-left: 20px;
         }
         p {
           margin-left: -15px;
+          width: 127%;
           br {
             display: none;
           }
@@ -113,7 +117,7 @@
       &__inputs {
         margin-left: -30px;
         input {
-          width: 40%;
+          width: 140%;
         }
         button {
           margin-left: 75px;
@@ -121,6 +125,7 @@
       }
     }
   }
+
 }
 
 @media (max-width: 425px ) {
@@ -132,6 +137,7 @@
         }
         p {
           margin-left: -20px;
+
           br {
             display: none;
           }
@@ -148,6 +154,7 @@
       }
     }
   }
+
 }
 
 @media (max-width: 380px ) {
@@ -155,21 +162,23 @@
     .submit--general {
       &__title {
         h1 {
-          font-size: 30px;
-          margin-left: 5px;
+          margin-left: 10px;
         }
         p {
-          width: 30%;
-          margin-left: -11px;
+          margin-left: -20px;
+
+          br {
+            display: none;
+          }
         }
       }
       &__inputs {
         margin-left: -30px;
         input {
-          width: 33%;
+          width: 137%;
         }
         button {
-          margin-left: 40px;
+          margin-left: 65px;
         }
       }
     }
@@ -192,31 +201,10 @@
 }
 
 @media (max-width: 320px ) {
-  #submit {
-    .submit--general {
-      &__title {
-        h1 {
-          font-size: 25px;
-          margin-left: 0px;
-        }
-        p {
-          width: 25%;
-          margin-left: -11px;
-        }
-      }
-      &__inputs {
-        margin-left: -30px;
-        input {
-          width: 27.5%;
-          font-size: 16px;
-        }
-        p {
-          font-size: 14px;
-        }
-        button {
-          margin-left: 15px;
-        }
-      }
-    }
+  #submit .submit--general__title h1 {
+    margin-left: 214px;
+  }
+  #submit .submit--general__inputs input {
+    width: 142%;
   }
 }
