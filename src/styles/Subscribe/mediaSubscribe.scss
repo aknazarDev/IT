@@ -2,15 +2,24 @@
   .container {
     width: 90%;
   }
+  #subscribe .subscribe--general {
+    width: 1120px;
+  }
+  #articles .articles--general .articles--general__title {
+    padding-top: 247px;
+  }
 }
 
 @media (max-width: 1140px) {
-  #subscribe {
-    .subscribe--general {
-      width: 1100px;
-      height: 240px;
-      margin-left: 20px;
-    }
+  #subscribe .subscribe--general {
+    width: 1050px;
+  }
+  #hero {
+    min-height: 109vh;
+    width: 105%;
+  }
+  #articles .articles--general .articles--general__title {
+    padding-top: 247px;
   }
 }
 
@@ -20,6 +29,7 @@
       width: 987px;
     }
   }
+
 }
 
 @media (max-width: 992px) {
@@ -62,46 +72,20 @@
 }
 
 @media (max-width: 579px) {
-  #subscribe {
-    .subscribe--general {
-      width: 540px;
-      height: 360px;
-
-      &__block {
-        flex-direction: column;
-        padding: 50px 50px;
-
-        &--title {
-          padding-left: 60px;
-
-          h1 {
-            text-align: center;
-            width: 85%;
-          }
-
-          p {
-            width: 88%;
-            text-align: center;
-
-            br {
-              display: none;
-            }
-          }
-        }
-
-        &--btn {
-          margin-top: 15px;
-        }
-      }
-    }
+  #subscribe .subscribe--general {
+     width: 590px;
+     height: 250px;
   }
 }
 
 @media (max-width: 452px) {
   #subscribe {
     .subscribe--general {
-      width: 410px;
-      height: 360px;
+
+
+        width: 760px;
+        height: 248px;
+
 
       &__block {
         padding: 50px 0;
@@ -168,22 +152,9 @@
 }
 
 @media (max-width: 380px) {
-  #subscribe {
-    .subscribe--general {
-      width: 340px;
-
-      &__block {
-        &--title {
-          margin-left: -25px;
-        }
-
-        &--btn {
-          button {
-            font-size: 20px;
-          }
-        }
-      }
-    }
+  #subscribe .subscribe--general {
+    width: 759px;
+    height: 266px;
   }
 }
 
@@ -196,39 +167,8 @@
 }
 
 @media (max-width: 320px) {
-  #subscribe {
-    .subscribe--general {
-      width: 290px;
-      height: 320px;
-
-      &__block {
-        padding: 30px 0;
-
-        &--title {
-          h1 {
-            font-size: 23px;
-          }
-
-          p {
-            width: 88%;
-            font-size: 16px;
-          }
-        }
-
-        &--btn {
-          margin-left: 13px;
-
-          button {
-            width: 230px;
-            height: 50px;
-            font-size: 16px;
-          }
-          p {
-            font-size: 15px;
-            padding-left: 23px;
-          }
-        }
-      }
-    }
+  #subscribe .subscribe--general {
+    width: 733px;
+    height: 211px;
   }
 }

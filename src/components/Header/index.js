@@ -18,6 +18,7 @@ const Header = () => {
                                 <NavLink className='header--general__link--nav__block' to={'/course'}>Наши курсы</NavLink>
                                 <NavLink className='header--general__link--nav__block' to={'/about'}>О нас</NavLink>
                             </nav>
+
                         </div>
                         <div className='header--general__subs'>
                             <Link className='header--general__subs--bot' to={'/checking'}>Войти</Link>
@@ -25,8 +26,21 @@ const Header = () => {
                                 <button>Подписаться</button>
                             </Link>
                         </div>
+                        <div className="header--general__burger">
+                            <input type="checkbox" id="menu-toggle" className="burger-input"/>
+                            <label htmlFor="menu-toggle" className="burger-label"></label>
+                            <ul className="burger-menu">
+                                <li>            <NavLink className="nav-header" target="_blank" to={"/School"}>О школе</NavLink>
+                                </li>        <li>
+                                <NavLink className="nav-header" target="_blank" to={"/Course"}>Наши курсы</NavLink>        </li>
+                                <li>            <NavLink className="nav-header" target="_blank" to={"/About"}>О нас</NavLink>
+                                </li>        <li className="burger-menu_group">
+                                <NavLink className="nav-right" to={"/Sign"}>Войти</NavLink>            <NavLink to={"/Follow"} className="button-header">Подписаться</NavLink>
+                            </li>    </ul>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </>
     );
