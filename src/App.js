@@ -26,11 +26,14 @@ function App() {
                 <Route path='/school' element={<School/>}/>
                 <Route path='/course' element={<Course/>}/>
                 <Route path='/about' element={<About/>}/>
+
+
                 <Route path='/articlese' element={<Articlese/>}/>
                 <Route path='/package' element={<Package/>}/>
                 <Route path='/checking' element={<Checking/>}/>
                 <Route path='/masters' element={<Masters/>}/>
                 <Route path='/profile' element={<Profile/>}/>
+
                 {/*<Route path='/articlese' element={<Articlese/>}/>*/}
                 {/*<Route path='/package' element={<Package/>}/>*/}
                 {/*<Route path='/checking' element={<Checking/>}/>*/}
