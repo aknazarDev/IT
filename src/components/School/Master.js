@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 const Master = () => {
     return (
@@ -29,7 +30,9 @@ const Master = () => {
                                 рассказал на конференции РИТ++ ...</p>
                         </div>
                             <div className='master--general__blocks--btn'>
-                                <button>Все мастер классы</button>
+                                <Link to={'/masters'}>
+                                    <button>Все мастер классы</button>
+                                </Link>
                             </div>
                         </div>
                     </div>
