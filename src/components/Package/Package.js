@@ -57,7 +57,7 @@ const Package = () => {
                                     <p><AiOutlineCheck/> <b>6 новых статей каждый месяц</b></p>
                                     <p><AiOutlineCheck/> <b>Доступ к курсу “DevOps - инженер”</b></p>
                                 </div>
-                                <button>Оформить подписку</button>
+                                <button className='package--general__blocks--tops'>Оформить подписку</button>
                             </div>
                         </div>
                         <p className='package--general__p'>Списания будут автоматическими. Вы всегда можете отменить подписку в Вашем личном кабинете
