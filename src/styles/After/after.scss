@@ -1,0 +1,92 @@
+#after {
+  .after--general{
+    h1{
+      padding-top: 130px;
+      font-family: 'Montserrat',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #A5A5A5;
+      span{
+        font-family: 'Montserrat',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #ffffff;
+      }
+    }
+    &__such{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &--so{
+        h1{
+          font-family: 'Montserrat',sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 44px;
+          color: #FFFFFF;
+          margin-bottom: 30px;
+        }
+        p{
+          width: 641px;
+          height: 96px;
+          font-family: 'Montserrat',sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 24px;
+          color: #FFFFFF;
+          margin-bottom: 50px;
+        }
+        &__btn{
+          width: 263px;
+          height: 70px;   
+          filter: drop-shadow(-2px -2px 8px rgba(0, 0, 0, 0.2)) drop-shadow(3px 2px 13px rgba(0, 0, 0, 0.07));
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 20px;
+          color: #FFFFFF;
+          background: #043C6F;
+
+
+        }
+      }
+      &--no{
+        h2{
+           position: absolute;
+           width: 102px;
+           height: 63px;
+           left: 933px;
+           top: 316px;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+        }
+        h1{
+          position: absolute;
+             width: 102px;
+             height: 63px;
+             left: 933px;
+             top: 316px;
+              font-weight: 600;
+              font-size: 20px;
+              line-height: 24px;
+              color: #FFFFFF;
+        }
+
+      }
+
+    }
+  }
+}
+
+
+
+
+
+

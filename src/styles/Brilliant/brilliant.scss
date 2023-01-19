@@ -1,0 +1,172 @@
+#brilliant{
+  .brilliant--general{
+    h1{
+      padding-top: 160px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #A5A5A5;
+    }
+    &__me{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &--you{
+        margin-top: 60px;
+        h2{
+          width: 169px;
+          height: 44px;
+          font-family: 'Montserrat',sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 44px;
+          color: #FFFFFF;
+        }
+        p{
+          margin-top: 30px;
+          width: 738px;
+          height: 240px;
+          font-family: 'Montserrat',sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 24px;
+          color: #FFFFFF;
+        }
+
+      }
+      &--your{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        h1{
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 24px;
+          color: #FFFFFF;
+          margin-top: -190px;
+          margin-bottom: 60px;
+        }
+        h2{
+          width: 186px;
+          height: 97px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 24px;
+          color: #FFFFFF;
+        }
+
+      }
+    }
+    &__not{
+      h1{
+        padding-bottom: 90px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 54px;
+        color: #FFFFFF;
+        width: 479px;
+        height: 78px;
+      }
+      &--good{
+        &__bad{
+          h1{
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+          }
+          ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-left: -240px;
+          li{
+            height: 74px;
+            left: 152px;
+            top: 1500px;
+            font-family: 'Montserrat',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+
+          }
+          }
+
+        }
+        &__worse{
+          span{
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+          }
+          p{
+            width: 1029px;
+            height: 240px;
+            left: 135px;
+            top: 1820px;
+            font-family: 'Montserrat',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;
+            color: #FFFFFF;
+          }
+          h1{
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+            width: 770px;
+            height: 24px;
+          }
+          &--great{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-left: -330px;
+            margin-bottom: 190px;
+
+            &__btn{
+              width: 332px;
+              height: 70px;
+              left: 135px;
+              top: 2244px;
+              background: #044076;
+              box-shadow: -2px -2px 8px rgba(0, 0, 0, 0.2), 3px 2px 13px rgba(0, 0, 0, 0.07);
+              border-radius: 10px;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 20px;
+              color: #FFFFFF;
+            }
+            &__btns{
+              width: 330px;
+              height: 70px;
+              left: 567px;
+              top: 2244px;
+              border: 1px solid #044076;
+              border-radius: 10px;
+              background: none;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 20px;
+              color: #FFFFFF;
+            }
+
+          }
+
+
+        }
+      }
+
+    }
+
+  }
+}

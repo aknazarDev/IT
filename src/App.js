@@ -10,9 +10,13 @@ import Globally from "./components/About/Globally";
 import Articlese from "./components/Articlese/Articlese";
 import Package from "./components/Package/Package";
 import Checking from "./components/Checking/Checking";
+
+import After from "./components/After/After";
+
 import Masters from "./components/Masters/Masters";
 import Profile from "./components/Profile/Profile";
 import Control from "./components/Control/Control";
+
 
 
 function App() {
@@ -30,6 +34,8 @@ function App() {
                 <Route path='/articlese' element={<Articlese/>}/>
                 <Route path='/package' element={<Package/>}/>
                 <Route path='/checking' element={<Checking/>}/>
+                <Route path='/after' element={<After/>}/>
+
                 <Route path='/masters' element={<Masters/>}/>
                 <Route path='/profile' element={<Profile/>}/>
                 <Route path='/package' element={<Package/>}/>
