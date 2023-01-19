@@ -1,4 +1,6 @@
 #dollar {
+  margin-top: 180px;
+
   .dollar--general {
     &__item {
       h1 {
@@ -6,8 +8,9 @@
         font-size: 36px;
         text-align: center;
         color: #FFFFFF;
-        margin: 30px;
+        margin: 45px;
       }
+
       p {
         font-weight: 400;
         font-size: 16px;
@@ -16,10 +19,12 @@
         color: #FFFFFF;
       }
     }
+
     &__blocks {
       display: flex;
       align-items: center;
       justify-content: space-between;
+
       &--block {
         button {
           &:hover {
@@ -27,6 +32,7 @@
             background: #101b3f;
           }
         }
+
         margin: 60px 0;
         padding: 20px;
         width: 346px;
@@ -41,17 +47,20 @@
           font-size: 16px;
           color: #FFFFFF;
         }
+
         p {
           font-weight: 400;
           font-size: 15px;
           color: #FFFFFF;
         }
+
         h2 {
           font-weight: 500;
           font-size: 48px;
           color: #FFFFFF;
           margin: 15px;
         }
+
         &__btn {
           display: flex;
           align-items: center;
@@ -72,6 +81,7 @@
             transition: .3s;
             cursor: pointer;
           }
+
           &--two {
             width: 130px;
             height: 38px;
@@ -87,6 +97,7 @@
             cursor: pointer;
           }
         }
+
         &:hover {
           transform: scale(1.1);
         }
