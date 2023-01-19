@@ -10,6 +10,7 @@ import Globally from "./components/About/Globally";
 import Articlese from "./components/Articlese/Articlese";
 import Package from "./components/Package/Package";
 import Checking from "./components/Checking/Checking";
+import After from "./components/After/After";
 
 
 function App() {
@@ -17,16 +18,17 @@ function App() {
         <>
             <Routes>
                 <Route path='/home' element={<Gen/>}/>
-                {/*<Route path='/' element={<Gen/>}/>*/}
-                {/*<Route path='/' element={<General/>}/>*/}
-                {/*<Route path='/' element={<Global/>}/>*/}
-                {/*<Route path='/' element={<Globally/>}/>*/}
+                <Route path='/' element={<Gen/>}/>
+                <Route path='/' element={<General/>}/>
+                <Route path='/' element={<Global/>}/>
+                <Route path='/' element={<Globally/>}/>
                 <Route path='/school' element={<School/>}/>
                 <Route path='/course' element={<Course/>}/>
                 <Route path='/about' element={<About/>}/>
-                {/*<Route path='/articlese' element={<Articlese/>}/>*/}
-                {/*<Route path='/package' element={<Package/>}/>*/}
-                {/*<Route path='/checking' element={<Checking/>}/>*/}
+                <Route path='/articlese' element={<Articlese/>}/>
+                <Route path='/package' element={<Package/>}/>
+                <Route path='/checking' element={<Checking/>}/>
+                <Route path='/after' element={<After/>}/>
             </Routes>
         </>
     );
