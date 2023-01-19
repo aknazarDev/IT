@@ -1,6 +1,6 @@
 #checking{
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 
   .checking--general{
     display: flex;
@@ -8,7 +8,89 @@
     align-items: center;
     flex-direction: column;
     &__img{
-
+      img{
+        padding-left: 35%;
+      }
+      form{
+        padding-top: 90px;
+        .email{
+          input{
+            width: 500px;
+            height: 55px;
+            border: 1px solid #FFFFFF;
+            background: transparent;
+            font-weight: 400;
+            font-size: 20px;
+            color: #FFFFFF;
+            border-radius: 10px;
+            padding: 0 20px;
+          }
+          p{
+            font-weight: 400;
+            font-size: 16px;
+            color: #FFFFFF;
+            padding-left: 20px;
+          }
+        }
+        .password{
+          padding: 50px 0;
+          position: relative;
+          input{
+            width: 501px;
+            height: 55px;
+            border: 1px solid #FFFFFF;
+            background: transparent;
+            font-weight: 400;
+            font-size: 20px;
+            color: #FFFFFF;
+            border-radius: 10px;
+            padding: 0 20px;
+            position: absolute;
+          }
+          p{
+            font-weight: 400;
+            font-size: 16px;
+            color: #FFFFFF;
+            padding-left: 20px;
+          }
+          button{
+            background: transparent;
+            color: white;
+            position: relative;
+            border: none;
+            font-size: 20px;
+            left:  90%;
+            top: 18px;
+            cursor: pointer;
+          }
+        }
+        .check{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          button{
+            font-weight: 500;
+            font-size: 16px;
+            color: #FFFFFF;
+            width: 273px;
+            height: 54px;
+            background: #034078;
+            border-radius: 10px;
+            border: none;
+            transition: .4s;
+            cursor: pointer;
+            &:hover{
+              transform: scale(1.1);
+            }
+          }
+          a{
+            font-weight: 500;
+            font-size: 16px;
+            text-decoration-line: underline;
+            color: #FFFFFF;
+          }
+        }
+      }
     }
   }
 }

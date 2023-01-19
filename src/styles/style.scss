@@ -22,23 +22,23 @@
 @import "src/styles/Header/mediaHeader";
 @import "src/styles/Footer/mediaFooter";
 @import "src/styles/Checking/checking";
-
+@import "src/styles/Profile/profile";
 @import "src/styles/Course/mediaCourse";
 @import "src/styles/Hero/mediaHero";
 @import "src/styles/Articles/mediaArticl";
 @import "src/styles/Subscribe/mediaSubscribe";
 @import "src/styles/Questions/mediaQuestion";
 @import "src/styles/Submit/mediaSumbit";
-
-
 @import "src/styles/About/mediaAbout";
 @import "src/styles/Certificate/mediaCertificate";
 @import "src/styles/Sliders/mediaSliders";
-
 @import "src/styles/Master/mediaMaster";
 @import "src/styles/Dollar/mediaDollar";
 @import "src/styles/Team/mediaTeam";
 @import "src/styles/School/mediaSchool";
+@import "src/styles/Control/control";
+
+
 
 
 @import "Sliders/sliders";
@@ -62,12 +62,6 @@ a{
 
 body,html{
   background: #0A1128;
-}
-
-@media (max-width: 1200px) {
-  .container {
-    width: 90%;
-  }
 }
 
 
