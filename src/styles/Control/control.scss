@@ -1,5 +1,7 @@
 #control {
   padding-top: 201px;
+  padding-top: 200px;
+
   .control--general {
     &__status {
       &--item {
@@ -8,12 +10,15 @@
             font-style: normal;
             font-weight: 701;
             font-size: 35px;
+            font-weight: 700;
+            font-size: 36px;
             color: #FFFFFF;
           }
 
           p {
             font-weight: 400;
             font-size: 17px;
+            font-size: 16px;
             line-height: 24px;
             color: #FFFFFF;
             padding: 18px 0;
@@ -31,6 +36,7 @@
             &__micro {
               display: flex;
               margin-right: 391px;
+              margin-right: 390px;
 
               &--prof {
                 h5 {
@@ -70,6 +76,7 @@
                 align-items: center;
                 margin: 13px 0;
                 width: 417px;
+                width: 418px;
                 height: 80px;
                 border-radius: 10px;
                 cursor: pointer;
@@ -102,6 +109,7 @@
         &__btn {
           position: relative;
           left: 661px;
+          left: 660px;
           top: 12px;
           display: flex;
           align-items: center;
@@ -113,6 +121,7 @@
             display: flex;
             align-items: center;
             width: 201px;
+            width: 202px;
             height: 44px;
             background: #FFFFFF;
             border-radius: 10px;
@@ -159,6 +168,13 @@
           border-radius: 5px;
         }
       }
+    }
+  }
+}
+#control{
+  .control--general{
+    h1{
+      padding-bottom: 900px;
     }
   }
 }

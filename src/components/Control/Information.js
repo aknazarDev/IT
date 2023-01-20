@@ -28,6 +28,7 @@ const Information = () => {
                                 </ul>
                             </div>
                         </div>
+                       <h1>salam aleikum</h1>
                     </div>
                 </div>
             </section>
