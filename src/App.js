@@ -16,6 +16,7 @@ import After from "./components/After/After";
 import Masters from "./components/Masters/Masters";
 import Profile from "./components/Profile/Profile";
 import Control from "./components/Control/Control";
+import Youtube from "./components/Youtube/Youtube";
 
 
 
@@ -41,6 +42,7 @@ function App() {
                 <Route path='/package' element={<Package/>}/>
                 <Route path='/checking' element={<Checking/>}/>
                 <Route path='/control' element={<Control/>}/>
+                <Route path='/youtube' element={<Youtube/>}/>
             </Routes>
         </>
     );
