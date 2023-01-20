@@ -1,0 +1,26 @@
+#front{
+  .front--general{
+    &__so{
+      &--no{
+
+        h1{
+          padding-bottom: 33px;
+          font-weight: 701;
+          font-size: 35px;
+          line-height: 46px;
+          color: #FFFFFF;
+        }
+        &__such{
+          left: 9.31%;
+          right: 44.1%;
+          top: 35.67%;
+          bottom: 61.27%;
+          border: 1px solid #044076;
+          border-radius: 10px;
+        }
+
+
+      }
+    }
+  }
+}

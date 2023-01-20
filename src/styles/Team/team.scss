@@ -42,7 +42,7 @@
         &__enter {
           display: flex;
           align-items: center;
-          h5 {
+          &--such {
             font-weight: 700;
             font-size: 16px;
             margin: 0 10px;

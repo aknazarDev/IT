@@ -22,7 +22,7 @@ const Team = () => {
                                     постоянно
                                     разрабатывать новые <br/>проекты</p>
                                 <div className='team--general__blocks--title__enter'>
-                                    <h5>Подробнее</h5>
+                              <Link className='team--general__blocks--title__enter--such' to={'/after'}>Подробнее</Link>
                                     <BsArrowRight/>
                                 </div>
                             </div>
