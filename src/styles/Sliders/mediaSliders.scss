@@ -119,25 +119,32 @@
 }
 @media (max-width: 320px ) {
   #slider .slider--general {
-
     width: 180%;
 
     .slick-list {
       p {
-        width: 194px
-
+        width: 295px
       }
 
       width: 180%;
 
       .slick-list {
         p {
-          width: 195px
+          width: 194px
 
         }
 
-        img {
-          margin-left: 30%;
+        width: 180%;
+
+        .slick-list {
+          p {
+            width: 195px
+
+          }
+
+          img {
+            margin-left: 30%;
+          }
         }
       }
     }
