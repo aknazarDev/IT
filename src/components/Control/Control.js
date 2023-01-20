@@ -164,10 +164,8 @@ const Control = () => {
                             </div>
                         </div>
                     </div>
-                    <p>.
-                    </p>
+                    <p>.</p>
                     </div>
-
             </section>
             <Information/>
         </>
