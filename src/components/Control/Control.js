@@ -11,6 +11,8 @@ import back from "../../asstets/img/back.svg";
 import {IoIosArrowBack} from "react-icons/io";
 import {MdArrowForwardIos} from "react-icons/md";
 import Information from "./Information";
+
+
 const Control = () => {
     return (
         <>
@@ -173,4 +175,19 @@ const Control = () => {
         </>
     );
 };
+                                <a href="https://www.youtube.com/c/TheDastanOfficial/videos"><img src={youtube}
+                                className='control--general__status--images__image'alt="img"/></a>
+                            </div>
+                        </div>
+                    </div>
+                    <p>.</p>
+                        <h1>Сертификат</h1>
+                        <p>По окончании обучения выдается онлайн сертификат.</p>
+                    </div>
+                </div>
+            </section>
+        </>
+    );
+};
+
 export default Control;
