@@ -166,6 +166,8 @@ const Control = () => {
                             </div>
                         </div>
                     </div>
+                    <p>.</p>
+                    </div>
                     <p>.
                     </p>
                     </div>
