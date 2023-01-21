@@ -126,9 +126,59 @@
         width: 295px;
       }
 
-      width: 180%;
 
 
+
+          .slick-list {
+            p {
+              width: 194px
+
+            }
+
+            width: 180%;
+
+            .slick-list {
+              p {
+                width: 195px
+
+              }
+
+              img {
+                margin-left: 30%;
+              }
+
+              width: 180%;
+
+              .slick-list {
+                p {
+                  width: 295px
+
+                }
+
+                .slick-list {
+                  p {
+                    width: 194px
+
+                  }
+
+                  width: 180%;
+
+                  .slick-list {
+                    p {
+                      width: 195px
+
+                    }
+
+                    img {
+                      margin-left: 30%;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
-}
+

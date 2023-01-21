@@ -11,6 +11,7 @@ import back from "../../asstets/img/back.svg";
 import {IoIosArrowBack} from "react-icons/io";
 import {MdArrowForwardIos} from "react-icons/md";
 import Information from "./Information";
+import Comments from "./Comments";
 
 
 const Control = () => {
@@ -171,6 +172,20 @@ const Control = () => {
     <Information/>
    </>
    );
+                            <div className='control--general__status--images'>
+                                <a href="https://www.youtube.com/c/TheDastanOfficial/videos"><img
+                                    src={youtube}
+                                    className='control--general__status--images__image' alt="img"/></a>
+                            </div>
+                        </div>
+                    </div>
+                    <p>.</p>
+                </div>
+            </section>
+            <Information/>
+            <Comments/>
+        </>
+    );
 };
 
 
