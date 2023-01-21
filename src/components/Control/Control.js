@@ -1,7 +1,7 @@
 import React from 'react';
 import arts from "../../asstets/img/left.png";
 import abroad from "../../asstets/img/artboard.png";
-import statistics from "../../asstets/img/statistica.svg";
+import statistica from "../../asstets/img/statistica.svg";
 import youtube from "../../asstets/img/youtube.svg";
 import joni from "../../asstets/img/joni.svg";
 import microphoto from "../../asstets/img/microphoto.svg";
@@ -11,6 +11,7 @@ import back from "../../asstets/img/back.svg";
 import {IoIosArrowBack} from "react-icons/io";
 import {MdArrowForwardIos} from "react-icons/md";
 import Information from "./Information";
+import Comments from "./Comments";
 
 
 const Control = () => {
@@ -41,7 +42,7 @@ const Control = () => {
                                             <p>Когда нужно переходить от прокачивания личной <br/>
                                                 эффективности к изучению эффективности командой?</p>
                                             <div className='control--general__status--item__reactive--img'>
-                                                <img src={statistics} alt="img"/>
+                                                <img src={statistica} alt="img"/>
                                             </div>
                                         </div>
                                         <div className="control--general__status--item__reactive--serval__block">
@@ -64,16 +65,17 @@ const Control = () => {
                                                     <h5>1 Reactivity</h5>
                                                     <h6>Урок</h6>
                                                 </div>
-                                            </div><div
-                                            className="control--general__status--item__reactive--serval__block--fon">
-                                            <div>
-                                                <img src={skills} alt="img"/>
                                             </div>
-                                            <div>
-                                                <h5>1 Reactivity</h5>
-                                                <h6>Урок</h6>
+                                            <div
+                                                className="control--general__status--item__reactive--serval__block--fon">
+                                                <div>
+                                                    <img src={skills} alt="img"/>
+                                                </div>
+                                                <div>
+                                                    <h5>1 Reactivity</h5>
+                                                    <h6>Урок</h6>
+                                                </div>
                                             </div>
-                                        </div>
                                             <div
                                                 className="control--general__status--item__reactive--serval__block--fon">
                                                 <div>
@@ -124,7 +126,8 @@ const Control = () => {
                                                     <h6>Урок</h6>
                                                 </div>
                                             </div>
-                                            <div className="control--general__status--item__reactive--serval__block--fon">
+                                            <div
+                                                className="control--general__status--item__reactive--serval__block--fon">
                                                 <div>
                                                     <img src={back} alt="img"/>
                                                 </div>
@@ -132,45 +135,45 @@ const Control = () => {
                                                     <h5>1 Reactivity</h5>
                                                     <h6>Урок</h6>
                                                 </div>
-                                        </div>
-                                        <div
-                                            className="control--general__status--item__reactive--serval__block--fon">
-                                            <div>
-                                                <img src={microphoto} alt="img"/>
                                             </div>
-                                            <div>
-                                                <h5>1 Reactivity</h5>
-                                                <h6>Урок</h6>
+                                            <div
+                                                className="control--general__status--item__reactive--serval__block--fon">
+                                                <div>
+                                                    <img src={microphoto} alt="img"/>
+                                                </div>
+                                                <div>
+                                                    <h5>1 Reactivity</h5>
+                                                    <h6>Урок</h6>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="control--general__status--item__btn">
-                                <div className="control--general__status--item__btn--one">
-                                    <IoIosArrowBack/>
-                                    <h5>Предыдущий урок</h5>
+                                <div className="control--general__status--item__btn">
+                                    <div className="control--general__status--item__btn--one">
+                                        <IoIosArrowBack/>
+                                        <h5>Предыдущий урок</h5>
+                                    </div>
+                                    <div className="control--general__status--item__btn--two">
+                                        <h5>Следующий урок</h5>
+                                        <MdArrowForwardIos/>
+                                    </div>
                                 </div>
-                                <div className="control--general__status--item__btn--two">
-                                    <h5>Следующий урок</h5>
-                                    <MdArrowForwardIos/>
-                                </div>
                             </div>
-                        </div>
-                        <div className='control--general__status--images'>
-                            <a href="https://www.youtube.com/c/TheDastanOfficial/videos"><img
-                                src={youtube}
-                                className='control--general__status--images__image' alt="img"/></a>
+                            <div className='control--general__status--images'>
+                                <a href="https://www.youtube.com/c/TheDastanOfficial/videos"><img
+                                    src={youtube}
+                                    className='control--general__status--images__image' alt="img"/></a>
+                            </div>
                         </div>
                     </div>
+                    <p>.</p>
                 </div>
-                </div>
-
-
-        </section>
-    <Information/>
-   </>
-   );
+            </section>
+            <Information/>
+            <Comments/>
+        </>
+    );
 };
 
 
