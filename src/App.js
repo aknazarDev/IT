@@ -17,6 +17,7 @@ import Masters from "./components/Masters/Masters";
 import Profile from "./components/Profile/Profile";
 import Control from "./components/Control/Control";
 import Youtube from "./components/Youtube/Youtube";
+import Visa from "./components/Visa/Visa";
 
 
 
@@ -43,6 +44,7 @@ function App() {
                 <Route path='/checking' element={<Checking/>}/>
                 <Route path='/control' element={<Control/>}/>
                 <Route path='/youtube' element={<Youtube/>}/>
+                <Route path='/visa' element={<Visa/>}/>
             </Routes>
         </>
     );
