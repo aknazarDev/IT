@@ -36,7 +36,6 @@ function App() {
                 <Route path='/package' element={<Package/>}/>
                 <Route path='/checking' element={<Checking/>}/>
                 <Route path='/after' element={<After/>}/>
-
                 <Route path='/masters' element={<Masters/>}/>
                 <Route path='/profile' element={<Profile/>}/>
                 <Route path='/package' element={<Package/>}/>

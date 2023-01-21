@@ -1,0 +1,140 @@
+#comments {
+  padding-top: 130px;
+
+  .comments--general {
+    &__item {
+      &--area {
+        width: 851px;
+        height: 260px;
+        background: #050C22;
+        border-radius: 7.35897px;
+
+        &__com {
+          margin: 18px;
+          width: 810.96px;
+          height: 136.14px;
+          border: none;
+          outline: none;
+          background: rgba(27, 41, 89, 0.4);
+          border-radius: 7.35897px;
+          font-weight: 500;
+          font-size: 18px;
+          padding: 14px;
+          color: #FFFFFF;
+        }
+
+        button {
+          border: none;
+          width: 190.38px;
+          height: 53.79px;
+          background: rgba(27, 41, 89, 0.4);
+          border-radius: 7.35897px;
+          font-weight: 500;
+          font-size: 14px;
+          margin: 0 16px;
+          color: #FFFFFF;
+          transition: .3s;
+          cursor: pointer;
+
+          &:hover {
+            transform: scale(1.05);
+          }
+        }
+      }
+
+      &--text {
+        h1 {
+          margin: 26px 0;
+          font-weight: 700;
+          font-size: 36px;
+          color: #FFFFFF;
+        }
+      }
+
+      &--answer {
+        display: flex;
+        align-items: center;
+        margin: 40px 0;
+
+        &__logo {
+          display: flex;
+          align-items: center;
+        }
+        h3 {
+          font-weight: 700;
+          font-size: 20px;
+          color: #FFFFFF;
+        }
+        h5 {
+          font-weight: 400;
+          font-size: 15px;
+          margin-left: 14px;
+          color: #9099A3;
+        }
+        p {
+          font-weight: 400;
+          font-size: 14px;
+          color: #9099A3;
+        }
+        h6 {
+          font-weight: 500;
+          font-size: 16px;
+          margin: 6px 0;
+          color: #FFFFFF;
+        }
+        img {
+          margin: 25px 15px;
+        }
+        &__img {
+          padding-bottom: 85px;
+          margin-left: 300px;
+        }
+      }
+      &--answerlast {
+        display: flex;
+        margin-left: 110px;
+
+        h3 {
+          font-weight: 700;
+          font-size: 20px;
+          color: #FFFFFF;
+        }
+        h5 {
+          font-weight: 400;
+          font-size: 15px;
+          margin-left: 14px;
+          color: #9099A3;
+        }
+        p {
+          font-weight: 400;
+          font-size: 14px;
+          color: #9099A3;
+        }
+        h6 {
+          font-weight: 500;
+          font-size: 16px;
+          margin: 6px 0;
+          color: #FFFFFF;
+        }
+
+        &__block {
+          margin-left: 14px;
+        }
+      }
+      button {
+        width: 264px;
+        height: 70px;
+        border: none;
+        font-weight: 500;
+        font-size: 16px;
+        color: #FFFFFF;        background: rgba(27, 41, 89, 0.4);
+        border-radius: 10px;
+        transition: .3s;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
+}
